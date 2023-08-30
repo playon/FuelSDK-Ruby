@@ -153,8 +153,8 @@ module MarketingCloudSDK
 					wsse_auth: ["*", "*"],
 					raise_errors: false,
 					log: debug,
-					open_timeout:180,
-					read_timeout: 180,
+					open_timeout: 3,
+					read_timeout: 3,
 					headers: {'User-Agent' => 'FuelSDK-Ruby-v' + MarketingCloudSDK::VERSION}
 			}
 
